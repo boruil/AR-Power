@@ -9,4 +9,4 @@
 import Foundation
 let tasksData = [
     UITableTask(task:"Task 1", detail:"Answer these questions", rating: 4),
-    UITableTask(task: "Task 2", detail: "Answer these questions",  rating: 2) ]
+    UITableTask(task: "Task 2", detail: "Answer these questions",  rating: 2)]

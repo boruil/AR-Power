@@ -61,18 +61,31 @@
             </objects>
             <point key="canvasLocation" x="673.5" y="422"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Task View Controller Table View Controller-->
         <scene sceneID="yRC-5W-hFx">
             <objects>
-                <tableViewController id="igD-AE-cVR" sceneMemberID="viewController">
+                <tableViewController id="igD-AE-cVR" customClass="UITaskViewControllerTableViewController" customModule="HelloMedicalResearch" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="nkb-Ws-ZZ1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="P3p-kU-BND">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" id="Sfa-dh-kcW">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sfa-dh-kcW" id="TS5-R4-DDY">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoUseCell" id="P3p-kU-BND">
+                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P3p-kU-BND" id="bIv-ly-0KN">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </tableViewCellContentView>
@@ -88,7 +101,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asV-LY-cqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3480" y="505"/>
+            <point key="canvasLocation" x="3810" y="429"/>
         </scene>
         <!--Dash-->
         <scene sceneID="4Ga-vU-GJa">
@@ -99,6 +112,7 @@
                         <viewControllerLayoutGuide type="bottom" id="COB-vB-kmP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wvR-Zd-kJt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,37 +135,154 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="37n-Kr-7as" kind="relationship" relationship="viewControllers" id="aht-Wt-Jcm"/>
                         <segue destination="K3o-k9-yKD" kind="relationship" relationship="viewControllers" id="vDD-At-jDS"/>
+                        <segue destination="OjA-fT-gwl" kind="relationship" relationship="viewControllers" id="qld-pK-1xv"/>
+                        <segue destination="sYP-NV-5vg" kind="relationship" relationship="viewControllers" id="qEe-Hg-dfg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Th-7d-PUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1549.5" y="422"/>
         </scene>
-        <!--Task-->
-        <scene sceneID="S1m-sY-37R">
+        <!--Item-->
+        <scene sceneID="UhM-zk-OOi">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="37n-Kr-7as" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Task" image="pizza bar icon" id="MOS-sg-zIe"/>
+                <viewController id="sYP-NV-5vg" customClass="SurveyTaskController" customModule="HelloMedicalResearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gue-Cl-EHO"/>
+                        <viewControllerLayoutGuide type="bottom" id="qAF-yV-nYH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i3n-9w-80e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afA-8P-wmq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="Task 3"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="270" width="52" height="40"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="250" width="221" height="102"/>
+                                </variation>
+                                <connections>
+                                    <action selector="surveyTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="q0k-bR-ZAx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hy-48-ddY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="Task 4"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="270" width="52" height="40"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="349" width="221" height="102"/>
+                                </variation>
+                                <connections>
+                                    <action selector="surveyTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="nX7-Yp-HJp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8h-hl-zju">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="Task 5"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="270" width="52" height="40"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="460" width="221" height="102"/>
+                                </variation>
+                                <connections>
+                                    <action selector="surveyTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="v5c-DU-ePn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZt-UE-Z19">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="Task 2"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="270" width="52" height="40"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="148" width="221" height="102"/>
+                                </variation>
+                                <connections>
+                                    <action selector="surveyTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="y0m-iy-zD7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnd-It-urY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="Task 1"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="270" width="52" height="40"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="28" width="221" height="102"/>
+                                </variation>
+                                <connections>
+                                    <action selector="surveyTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="bsl-m3-8lj"/>
+                                    <action selector="surveyTextTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="sCF-TS-E4v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="afA-8P-wmq"/>
+                                <exclude reference="5hy-48-ddY"/>
+                                <exclude reference="b8h-hl-zju"/>
+                                <exclude reference="eZt-UE-Z19"/>
+                                <exclude reference="tnd-It-urY"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="afA-8P-wmq"/>
+                                <include reference="5hy-48-ddY"/>
+                                <include reference="b8h-hl-zju"/>
+                                <include reference="eZt-UE-Z19"/>
+                                <include reference="tnd-It-urY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="sAo-9d-Z3E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WRA-Ni-tsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3109.5" y="1263"/>
+        </scene>
+        <!--table-->
+        <scene sceneID="xKL-VM-IyZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OjA-fT-gwl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="table" image="pie bar icon" id="QuE-AP-oPU"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fAp-au-UYp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="seO-Fo-Qnr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="igD-AE-cVR" kind="relationship" relationship="rootViewController" id="lUv-6R-YBD"/>
+                        <segue destination="igD-AE-cVR" kind="relationship" relationship="rootViewController" id="eRw-cG-jEt"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H8J-Hp-KGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ck9-3G-sQL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2562" y="505"/>
+            <point key="canvasLocation" x="2712" y="429"/>
         </scene>
     </scenes>
     <resources>
         <image name="gradient bar" width="30" height="30"/>
-        <image name="pizza bar icon" width="29" height="29"/>
+        <image name="pie bar icon" width="29" height="29"/>
     </resources>
 </document>

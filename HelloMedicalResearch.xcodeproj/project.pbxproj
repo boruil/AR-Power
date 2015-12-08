@@ -22,6 +22,9 @@
 		187B77C81C16F3A60018DB9B /* UITaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77C71C16F3A60018DB9B /* UITaskViewController.swift */; };
 		187B77CA1C16F3DD0018DB9B /* UITableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77C91C16F3DD0018DB9B /* UITableTask.swift */; };
 		187B77CC1C16F43A0018DB9B /* UITasksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CB1C16F43A0018DB9B /* UITasksData.swift */; };
+		187B77CE1C1703CC0018DB9B /* SurveyTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */; };
+		187B77D01C1707C10018DB9B /* SurveyTextTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */; };
+		187B77D21C17081D0018DB9B /* SurveyImageTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,9 @@
 		187B77C71C16F3A60018DB9B /* UITaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITaskViewController.swift; sourceTree = "<group>"; };
 		187B77C91C16F3DD0018DB9B /* UITableTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableTask.swift; sourceTree = "<group>"; };
 		187B77CB1C16F43A0018DB9B /* UITasksData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITasksData.swift; sourceTree = "<group>"; };
+		187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTaskController.swift; sourceTree = "<group>"; };
+		187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTextTask1.swift; sourceTree = "<group>"; };
+		187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyImageTask1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,9 @@
 				187B77C71C16F3A60018DB9B /* UITaskViewController.swift */,
 				187B77C91C16F3DD0018DB9B /* UITableTask.swift */,
 				187B77CB1C16F43A0018DB9B /* UITasksData.swift */,
+				187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */,
+				187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */,
+				187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */,
 			);
 			path = HelloMedicalResearch;
 			sourceTree = "<group>";
@@ -353,12 +362,15 @@
 			files = (
 				182A77B81C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld in Sources */,
 				182A78061C16BC1A0051C17D /* ConsentDocument.swift in Sources */,
+				187B77D01C1707C10018DB9B /* SurveyTextTask1.swift in Sources */,
 				187B77CC1C16F43A0018DB9B /* UITasksData.swift in Sources */,
 				182A78081C16C0350051C17D /* ConsentTask.swift in Sources */,
+				187B77D21C17081D0018DB9B /* SurveyImageTask1.swift in Sources */,
 				182A77B21C16A7200051C17D /* ViewController.swift in Sources */,
 				182A77B01C16A7200051C17D /* AppDelegate.swift in Sources */,
 				187B77C81C16F3A60018DB9B /* UITaskViewController.swift in Sources */,
 				187B77CA1C16F3DD0018DB9B /* UITableTask.swift in Sources */,
+				187B77CE1C1703CC0018DB9B /* SurveyTaskController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
