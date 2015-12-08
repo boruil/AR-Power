@@ -15,6 +15,13 @@
 		182A77BD1C16A7200051C17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A77BB1C16A7200051C17D /* LaunchScreen.storyboard */; };
 		182A77C81C16A7200051C17D /* HelloMedicalResearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77C71C16A7200051C17D /* HelloMedicalResearchTests.swift */; };
 		182A77D31C16A7200051C17D /* HelloMedicalResearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77D21C16A7200051C17D /* HelloMedicalResearchUITests.swift */; };
+		182A78001C16BA7B0051C17D /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A77FD1C16BA480051C17D /* ResearchKit.framework */; };
+		182A78011C16BA7B0051C17D /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182A77FD1C16BA480051C17D /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		182A78061C16BC1A0051C17D /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A78051C16BC1A0051C17D /* ConsentDocument.swift */; };
+		182A78081C16C0350051C17D /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A78071C16C0350051C17D /* ConsentTask.swift */; };
+		187B77C81C16F3A60018DB9B /* UITaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77C71C16F3A60018DB9B /* UITaskViewController.swift */; };
+		187B77CA1C16F3DD0018DB9B /* UITableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77C91C16F3DD0018DB9B /* UITableTask.swift */; };
+		187B77CC1C16F43A0018DB9B /* UITasksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CB1C16F43A0018DB9B /* UITasksData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +39,42 @@
 			remoteGlobalIDString = 182A77AB1C16A7200051C17D;
 			remoteInfo = HelloMedicalResearch;
 		};
+		182A77FC1C16BA480051C17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		182A77FE1C16BA480051C17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+		182A78021C16BA7B0051C17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		182A78041C16BA7B0051C17D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				182A78011C16BA7B0051C17D /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		182A77AC1C16A7200051C17D /* HelloMedicalResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMedicalResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +91,12 @@
 		182A77CE1C16A7200051C17D /* HelloMedicalResearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMedicalResearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182A77D21C16A7200051C17D /* HelloMedicalResearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMedicalResearchUITests.swift; sourceTree = "<group>"; };
 		182A77D41C16A7200051C17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		182A78051C16BC1A0051C17D /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		182A78071C16C0350051C17D /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		187B77C71C16F3A60018DB9B /* UITaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITaskViewController.swift; sourceTree = "<group>"; };
+		187B77C91C16F3DD0018DB9B /* UITableTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableTask.swift; sourceTree = "<group>"; };
+		187B77CB1C16F43A0018DB9B /* UITasksData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITasksData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182A78001C16BA7B0051C17D /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +128,7 @@
 		182A77A31C16A7200051C17D = {
 			isa = PBXGroup;
 			children = (
+				182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */,
 				182A77AE1C16A7200051C17D /* HelloMedicalResearch */,
 				182A77C61C16A7200051C17D /* HelloMedicalResearchTests */,
 				182A77D11C16A7200051C17D /* HelloMedicalResearchUITests */,
@@ -106,6 +156,11 @@
 				182A77BB1C16A7200051C17D /* LaunchScreen.storyboard */,
 				182A77BE1C16A7200051C17D /* Info.plist */,
 				182A77B61C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld */,
+				182A78051C16BC1A0051C17D /* ConsentDocument.swift */,
+				182A78071C16C0350051C17D /* ConsentTask.swift */,
+				187B77C71C16F3A60018DB9B /* UITaskViewController.swift */,
+				187B77C91C16F3DD0018DB9B /* UITableTask.swift */,
+				187B77CB1C16F43A0018DB9B /* UITasksData.swift */,
 			);
 			path = HelloMedicalResearch;
 			sourceTree = "<group>";
@@ -128,6 +183,15 @@
 			path = HelloMedicalResearchUITests;
 			sourceTree = "<group>";
 		};
+		182A77F71C16BA480051C17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182A77FD1C16BA480051C17D /* ResearchKit.framework */,
+				182A77FF1C16BA480051C17D /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +202,12 @@
 				182A77A81C16A7200051C17D /* Sources */,
 				182A77A91C16A7200051C17D /* Frameworks */,
 				182A77AA1C16A7200051C17D /* Resources */,
+				182A78041C16BA7B0051C17D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				182A78031C16BA7B0051C17D /* PBXTargetDependency */,
 			);
 			name = HelloMedicalResearch;
 			productName = HelloMedicalResearch;
@@ -221,6 +287,12 @@
 			mainGroup = 182A77A31C16A7200051C17D;
 			productRefGroup = 182A77AD1C16A7200051C17D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 182A77F71C16BA480051C17D /* Products */;
+					ProjectRef = 182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				182A77AB1C16A7200051C17D /* HelloMedicalResearch */,
@@ -229,6 +301,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		182A77FD1C16BA480051C17D /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = 182A77FC1C16BA480051C17D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		182A77FF1C16BA480051C17D /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = 182A77FE1C16BA480051C17D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		182A77AA1C16A7200051C17D /* Resources */ = {
@@ -263,8 +352,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				182A77B81C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld in Sources */,
+				182A78061C16BC1A0051C17D /* ConsentDocument.swift in Sources */,
+				187B77CC1C16F43A0018DB9B /* UITasksData.swift in Sources */,
+				182A78081C16C0350051C17D /* ConsentTask.swift in Sources */,
 				182A77B21C16A7200051C17D /* ViewController.swift in Sources */,
 				182A77B01C16A7200051C17D /* AppDelegate.swift in Sources */,
+				187B77C81C16F3A60018DB9B /* UITaskViewController.swift in Sources */,
+				187B77CA1C16F3DD0018DB9B /* UITableTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +390,11 @@
 			isa = PBXTargetDependency;
 			target = 182A77AB1C16A7200051C17D /* HelloMedicalResearch */;
 			targetProxy = 182A77CF1C16A7200051C17D /* PBXContainerItemProxy */;
+		};
+		182A78031C16BA7B0051C17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = 182A78021C16BA7B0051C17D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -493,6 +592,7 @@
 				182A77D91C16A7200051C17D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182A77DA1C16A7200051C17D /* Build configuration list for PBXNativeTarget "HelloMedicalResearchTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +601,7 @@
 				182A77DC1C16A7200051C17D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182A77DD1C16A7200051C17D /* Build configuration list for PBXNativeTarget "HelloMedicalResearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +610,7 @@
 				182A77DF1C16A7200051C17D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
