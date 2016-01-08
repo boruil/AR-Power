@@ -15,7 +15,7 @@ public var ConsentDocument: ORKConsentDocument {
     
     //TODO: content of consent
     //Put the conventional sections for now. I am not sure what of if any sections we will need here
-    var consentSectionTypes: [ORKConsentSectionType] = [
+    let consentSectionTypes: [ORKConsentSectionType] = [
         .Overview,
         .DataGathering,
         .Privacy,

@@ -10,7 +10,7 @@ import ResearchKit
 
 public var SurveyImageTask1: ORKOrderedTask {
     
-    var steps = [ORKStep]()
+    let steps = [ORKStep]()
     
     //TODO: add instructions step
     

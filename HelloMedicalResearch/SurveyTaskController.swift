@@ -36,7 +36,7 @@ class SurveyTaskController: UIViewController {
 extension SurveyTaskController : ORKTaskViewControllerDelegate {
     func taskViewController(taskViewController: ORKTaskViewController, didFinishWithReason reason: ORKTaskViewControllerFinishReason, error: NSError?) {
         // Handle results with taskViewController.result
-        let taskResult = taskViewController.result
+        _ = taskViewController.result
         // do something with the result here:
         
         

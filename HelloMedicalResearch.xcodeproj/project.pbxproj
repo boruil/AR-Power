@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1822F7251C3FC86800758889 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7241C3FC86800758889 /* MapKit.framework */; };
+		1822F7291C3FC87C00758889 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7281C3FC87C00758889 /* HealthKit.framework */; };
+		1822F79E1C3FD4CC00758889 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1822F79D1C3FD4CC00758889 /* LaunchScreen.xib */; };
+		1822F7C31C3FF1BE00758889 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7BD1C3FF1BE00758889 /* Bolts.framework */; };
+		1822F7C41C3FF1BE00758889 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7BE1C3FF1BE00758889 /* Parse.framework */; };
+		1822F7C51C3FF1BE00758889 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7BF1C3FF1BE00758889 /* ParseFacebookUtils.framework */; };
+		1822F7C61C3FF1BE00758889 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7C01C3FF1BE00758889 /* ParseFacebookUtilsV4.framework */; };
+		1822F7C71C3FF1BE00758889 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7C11C3FF1BE00758889 /* ParseTwitterUtils.framework */; };
+		1822F7C81C3FF1BE00758889 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7C21C3FF1BE00758889 /* ParseUI.framework */; };
+		1822F7CA1C3FF3CA00758889 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7C91C3FF3CA00758889 /* libsqlite3.tbd */; };
+		1822F7CC1C3FF43800758889 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7CB1C3FF43800758889 /* SystemConfiguration.framework */; };
+		1822F7CE1C3FF46C00758889 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7CD1C3FF46C00758889 /* AudioToolbox.framework */; };
+		1822F7D01C3FF4C100758889 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7CF1C3FF4C100758889 /* Accounts.framework */; };
+		1822F7D21C3FF4D200758889 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7D11C3FF4D200758889 /* CFNetwork.framework */; };
+		1822F7D41C3FF4D900758889 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7D31C3FF4D900758889 /* CoreGraphics.framework */; };
+		1822F7D61C3FF4DF00758889 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7D51C3FF4DF00758889 /* CoreLocation.framework */; };
+		1822F7D81C3FF4E800758889 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7D71C3FF4E800758889 /* QuartzCore.framework */; };
+		1822F7DA1C3FF4EE00758889 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7D91C3FF4EE00758889 /* Security.framework */; };
+		1822F7DC1C3FF4F500758889 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7DB1C3FF4F500758889 /* Social.framework */; };
+		1822F7DE1C3FF4FC00758889 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7DD1C3FF4FC00758889 /* StoreKit.framework */; };
+		1822F7E01C3FF50500758889 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7DF1C3FF50500758889 /* libz.tbd */; };
+		1822F81D1C40043300758889 /* APHDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1822F81C1C40043200758889 /* APHDashboard.storyboard */; };
+		1822F8231C4005FF00758889 /* APHDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822F8201C4005FF00758889 /* APHDashboardViewController.m */; };
+		1822F8241C4005FF00758889 /* APHDashboardEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822F8221C4005FF00758889 /* APHDashboardEditViewController.m */; };
 		182A77B01C16A7200051C17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77AF1C16A7200051C17D /* AppDelegate.swift */; };
 		182A77B21C16A7200051C17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77B11C16A7200051C17D /* ViewController.swift */; };
 		182A77B51C16A7200051C17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A77B31C16A7200051C17D /* Main.storyboard */; };
 		182A77B81C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182A77B61C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld */; };
 		182A77BA1C16A7200051C17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182A77B91C16A7200051C17D /* Assets.xcassets */; };
-		182A77BD1C16A7200051C17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A77BB1C16A7200051C17D /* LaunchScreen.storyboard */; };
 		182A77C81C16A7200051C17D /* HelloMedicalResearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77C71C16A7200051C17D /* HelloMedicalResearchTests.swift */; };
 		182A77D31C16A7200051C17D /* HelloMedicalResearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77D21C16A7200051C17D /* HelloMedicalResearchUITests.swift */; };
 		182A78001C16BA7B0051C17D /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A77FD1C16BA480051C17D /* ResearchKit.framework */; };
 		182A78011C16BA7B0051C17D /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 182A77FD1C16BA480051C17D /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		182A78061C16BC1A0051C17D /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A78051C16BC1A0051C17D /* ConsentDocument.swift */; };
 		182A78081C16C0350051C17D /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A78071C16C0350051C17D /* ConsentTask.swift */; };
-		187B77C81C16F3A60018DB9B /* UITaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77C71C16F3A60018DB9B /* UITaskViewController.swift */; };
-		187B77CA1C16F3DD0018DB9B /* UITableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77C91C16F3DD0018DB9B /* UITableTask.swift */; };
-		187B77CC1C16F43A0018DB9B /* UITasksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CB1C16F43A0018DB9B /* UITasksData.swift */; };
 		187B77CE1C1703CC0018DB9B /* SurveyTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */; };
 		187B77D01C1707C10018DB9B /* SurveyTextTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */; };
 		187B77D21C17081D0018DB9B /* SurveyImageTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */; };
@@ -80,26 +100,50 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		182A77AC1C16A7200051C17D /* HelloMedicalResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMedicalResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822F7241C3FC86800758889 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1822F7281C3FC87C00758889 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		1822F7581C3FCEC700758889 /* HelloMedicalResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMedicalResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822F79D1C3FD4CC00758889 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		1822F7A31C3FD85900758889 /* HelloMedicalResearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMedicalResearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822F7A41C3FD85900758889 /* HelloMedicalResearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMedicalResearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822F7BD1C3FF1BE00758889 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1822F7BE1C3FF1BE00758889 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1822F7BF1C3FF1BE00758889 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		1822F7C01C3FF1BE00758889 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		1822F7C11C3FF1BE00758889 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		1822F7C21C3FF1BE00758889 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		1822F7C91C3FF3CA00758889 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1822F7CB1C3FF43800758889 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1822F7CD1C3FF46C00758889 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1822F7CF1C3FF4C100758889 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1822F7D11C3FF4D200758889 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1822F7D31C3FF4D900758889 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1822F7D51C3FF4DF00758889 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1822F7D71C3FF4E800758889 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1822F7D91C3FF4EE00758889 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1822F7DB1C3FF4F500758889 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1822F7DD1C3FF4FC00758889 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1822F7DF1C3FF50500758889 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1822F8101C40006300758889 /* HelloMedicalResearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HelloMedicalResearch.entitlements; sourceTree = "<group>"; };
+		1822F81C1C40043200758889 /* APHDashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APHDashboard.storyboard; sourceTree = "<group>"; };
+		1822F81E1C4005FF00758889 /* HelloMedicalResearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMedicalResearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		1822F81F1C4005FF00758889 /* APHDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHDashboardViewController.h; sourceTree = "<group>"; };
+		1822F8201C4005FF00758889 /* APHDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardViewController.m; sourceTree = "<group>"; };
+		1822F8211C4005FF00758889 /* APHDashboardEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHDashboardEditViewController.h; sourceTree = "<group>"; };
+		1822F8221C4005FF00758889 /* APHDashboardEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardEditViewController.m; sourceTree = "<group>"; };
 		182A77AF1C16A7200051C17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182A77B11C16A7200051C17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182A77B41C16A7200051C17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182A77B71C16A7200051C17D /* HelloMedicalResearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloMedicalResearch.xcdatamodel; sourceTree = "<group>"; };
 		182A77B91C16A7200051C17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		182A77BC1C16A7200051C17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182A77BE1C16A7200051C17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182A77C31C16A7200051C17D /* HelloMedicalResearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMedicalResearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182A77C71C16A7200051C17D /* HelloMedicalResearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMedicalResearchTests.swift; sourceTree = "<group>"; };
 		182A77C91C16A7200051C17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182A77CE1C16A7200051C17D /* HelloMedicalResearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMedicalResearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182A77D21C16A7200051C17D /* HelloMedicalResearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMedicalResearchUITests.swift; sourceTree = "<group>"; };
 		182A77D41C16A7200051C17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ../ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		182A78051C16BC1A0051C17D /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		182A78071C16C0350051C17D /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
-		187B77C71C16F3A60018DB9B /* UITaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITaskViewController.swift; sourceTree = "<group>"; };
-		187B77C91C16F3DD0018DB9B /* UITableTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableTask.swift; sourceTree = "<group>"; };
-		187B77CB1C16F43A0018DB9B /* UITasksData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITasksData.swift; sourceTree = "<group>"; };
 		187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTaskController.swift; sourceTree = "<group>"; };
 		187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTextTask1.swift; sourceTree = "<group>"; };
 		187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyImageTask1.swift; sourceTree = "<group>"; };
@@ -110,7 +154,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1822F7CA1C3FF3CA00758889 /* libsqlite3.tbd in Frameworks */,
+				1822F7E01C3FF50500758889 /* libz.tbd in Frameworks */,
+				1822F7DE1C3FF4FC00758889 /* StoreKit.framework in Frameworks */,
+				1822F7DC1C3FF4F500758889 /* Social.framework in Frameworks */,
+				1822F7DA1C3FF4EE00758889 /* Security.framework in Frameworks */,
+				1822F7D81C3FF4E800758889 /* QuartzCore.framework in Frameworks */,
+				1822F7D61C3FF4DF00758889 /* CoreLocation.framework in Frameworks */,
+				1822F7D41C3FF4D900758889 /* CoreGraphics.framework in Frameworks */,
+				1822F7D21C3FF4D200758889 /* CFNetwork.framework in Frameworks */,
+				1822F7CE1C3FF46C00758889 /* AudioToolbox.framework in Frameworks */,
+				1822F7D01C3FF4C100758889 /* Accounts.framework in Frameworks */,
+				1822F7CC1C3FF43800758889 /* SystemConfiguration.framework in Frameworks */,
+				1822F7C81C3FF1BE00758889 /* ParseUI.framework in Frameworks */,
+				1822F7291C3FC87C00758889 /* HealthKit.framework in Frameworks */,
+				1822F7251C3FC86800758889 /* MapKit.framework in Frameworks */,
+				1822F7C61C3FF1BE00758889 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				1822F7C51C3FF1BE00758889 /* ParseFacebookUtils.framework in Frameworks */,
 				182A78001C16BA7B0051C17D /* ResearchKit.framework in Frameworks */,
+				1822F7C31C3FF1BE00758889 /* Bolts.framework in Frameworks */,
+				1822F7C71C3FF1BE00758889 /* ParseTwitterUtils.framework in Frameworks */,
+				1822F7C41C3FF1BE00758889 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,45 +195,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1822F73B1C3FCB7100758889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1822F7DF1C3FF50500758889 /* libz.tbd */,
+				1822F7DD1C3FF4FC00758889 /* StoreKit.framework */,
+				1822F7DB1C3FF4F500758889 /* Social.framework */,
+				1822F7D91C3FF4EE00758889 /* Security.framework */,
+				1822F7D71C3FF4E800758889 /* QuartzCore.framework */,
+				1822F7D51C3FF4DF00758889 /* CoreLocation.framework */,
+				1822F7D31C3FF4D900758889 /* CoreGraphics.framework */,
+				1822F7D11C3FF4D200758889 /* CFNetwork.framework */,
+				1822F7CF1C3FF4C100758889 /* Accounts.framework */,
+				1822F7CD1C3FF46C00758889 /* AudioToolbox.framework */,
+				1822F7CB1C3FF43800758889 /* SystemConfiguration.framework */,
+				1822F7C91C3FF3CA00758889 /* libsqlite3.tbd */,
+				1822F7BD1C3FF1BE00758889 /* Bolts.framework */,
+				1822F7BE1C3FF1BE00758889 /* Parse.framework */,
+				1822F7BF1C3FF1BE00758889 /* ParseFacebookUtils.framework */,
+				1822F7C01C3FF1BE00758889 /* ParseFacebookUtilsV4.framework */,
+				1822F7C11C3FF1BE00758889 /* ParseTwitterUtils.framework */,
+				1822F7C21C3FF1BE00758889 /* ParseUI.framework */,
+				1822F7281C3FC87C00758889 /* HealthKit.framework */,
+				1822F7241C3FC86800758889 /* MapKit.framework */,
+				182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1822F75C1C3FCEE100758889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1822F7581C3FCEC700758889 /* HelloMedicalResearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		182A77A31C16A7200051C17D = {
 			isa = PBXGroup;
 			children = (
-				182A77F61C16BA480051C17D /* ResearchKit.xcodeproj */,
+				1822F73B1C3FCB7100758889 /* Frameworks */,
 				182A77AE1C16A7200051C17D /* HelloMedicalResearch */,
 				182A77C61C16A7200051C17D /* HelloMedicalResearchTests */,
 				182A77D11C16A7200051C17D /* HelloMedicalResearchUITests */,
-				182A77AD1C16A7200051C17D /* Products */,
+				1822F75C1C3FCEE100758889 /* Products */,
+				1822F7A31C3FD85900758889 /* HelloMedicalResearchTests.xctest */,
+				1822F7A41C3FD85900758889 /* HelloMedicalResearchUITests.xctest */,
+				1822F81C1C40043200758889 /* APHDashboard.storyboard */,
 			);
-			sourceTree = "<group>";
-		};
-		182A77AD1C16A7200051C17D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				182A77AC1C16A7200051C17D /* HelloMedicalResearch.app */,
-				182A77C31C16A7200051C17D /* HelloMedicalResearchTests.xctest */,
-				182A77CE1C16A7200051C17D /* HelloMedicalResearchUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		182A77AE1C16A7200051C17D /* HelloMedicalResearch */ = {
 			isa = PBXGroup;
 			children = (
+				1822F8101C40006300758889 /* HelloMedicalResearch.entitlements */,
+				1822F79D1C3FD4CC00758889 /* LaunchScreen.xib */,
 				182A77AF1C16A7200051C17D /* AppDelegate.swift */,
 				182A77B11C16A7200051C17D /* ViewController.swift */,
 				182A77B31C16A7200051C17D /* Main.storyboard */,
+				1822F81F1C4005FF00758889 /* APHDashboardViewController.h */,
+				1822F8201C4005FF00758889 /* APHDashboardViewController.m */,
+				1822F8211C4005FF00758889 /* APHDashboardEditViewController.h */,
+				1822F8221C4005FF00758889 /* APHDashboardEditViewController.m */,
 				182A77B91C16A7200051C17D /* Assets.xcassets */,
-				182A77BB1C16A7200051C17D /* LaunchScreen.storyboard */,
 				182A77BE1C16A7200051C17D /* Info.plist */,
 				182A77B61C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld */,
 				182A78051C16BC1A0051C17D /* ConsentDocument.swift */,
 				182A78071C16C0350051C17D /* ConsentTask.swift */,
-				187B77C71C16F3A60018DB9B /* UITaskViewController.swift */,
-				187B77C91C16F3DD0018DB9B /* UITableTask.swift */,
-				187B77CB1C16F43A0018DB9B /* UITasksData.swift */,
 				187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */,
 				187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */,
 				187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */,
+				1822F81E1C4005FF00758889 /* HelloMedicalResearch-Bridging-Header.h */,
 			);
 			path = HelloMedicalResearch;
 			sourceTree = "<group>";
@@ -220,7 +316,7 @@
 			);
 			name = HelloMedicalResearch;
 			productName = HelloMedicalResearch;
-			productReference = 182A77AC1C16A7200051C17D /* HelloMedicalResearch.app */;
+			productReference = 1822F7581C3FCEC700758889 /* HelloMedicalResearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		182A77C21C16A7200051C17D /* HelloMedicalResearchTests */ = {
@@ -238,7 +334,7 @@
 			);
 			name = HelloMedicalResearchTests;
 			productName = HelloMedicalResearchTests;
-			productReference = 182A77C31C16A7200051C17D /* HelloMedicalResearchTests.xctest */;
+			productReference = 1822F7A31C3FD85900758889 /* HelloMedicalResearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		182A77CD1C16A7200051C17D /* HelloMedicalResearchUITests */ = {
@@ -256,7 +352,7 @@
 			);
 			name = HelloMedicalResearchUITests;
 			productName = HelloMedicalResearchUITests;
-			productReference = 182A77CE1C16A7200051C17D /* HelloMedicalResearchUITests.xctest */;
+			productReference = 1822F7A41C3FD85900758889 /* HelloMedicalResearchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -265,13 +361,21 @@
 		182A77A41C16A7200051C17D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Borui \"Andy\" Li";
 				TargetAttributes = {
 					182A77AB1C16A7200051C17D = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 9HWEPHA75Z;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					182A77C21C16A7200051C17D = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -294,7 +398,7 @@
 				Base,
 			);
 			mainGroup = 182A77A31C16A7200051C17D;
-			productRefGroup = 182A77AD1C16A7200051C17D /* Products */;
+			productRefGroup = 182A77A31C16A7200051C17D;
 			projectDirPath = "";
 			projectReferences = (
 				{
@@ -333,9 +437,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182A77BD1C16A7200051C17D /* LaunchScreen.storyboard in Resources */,
 				182A77BA1C16A7200051C17D /* Assets.xcassets in Resources */,
+				1822F79E1C3FD4CC00758889 /* LaunchScreen.xib in Resources */,
 				182A77B51C16A7200051C17D /* Main.storyboard in Resources */,
+				1822F81D1C40043300758889 /* APHDashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,16 +465,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1822F8241C4005FF00758889 /* APHDashboardEditViewController.m in Sources */,
 				182A77B81C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld in Sources */,
 				182A78061C16BC1A0051C17D /* ConsentDocument.swift in Sources */,
 				187B77D01C1707C10018DB9B /* SurveyTextTask1.swift in Sources */,
-				187B77CC1C16F43A0018DB9B /* UITasksData.swift in Sources */,
 				182A78081C16C0350051C17D /* ConsentTask.swift in Sources */,
 				187B77D21C17081D0018DB9B /* SurveyImageTask1.swift in Sources */,
 				182A77B21C16A7200051C17D /* ViewController.swift in Sources */,
+				1822F8231C4005FF00758889 /* APHDashboardViewController.m in Sources */,
 				182A77B01C16A7200051C17D /* AppDelegate.swift in Sources */,
-				187B77C81C16F3A60018DB9B /* UITaskViewController.swift in Sources */,
-				187B77CA1C16F3DD0018DB9B /* UITableTask.swift in Sources */,
 				187B77CE1C1703CC0018DB9B /* SurveyTaskController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,14 +521,6 @@
 				182A77B41C16A7200051C17D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		182A77BB1C16A7200051C17D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182A77BC1C16A7200051C17D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -515,12 +611,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HelloMedicalResearch/HelloMedicalResearch.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HelloMedicalResearch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boruili.HelloMedicalResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloMedicalResearch/HelloMedicalResearch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -528,12 +634,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HelloMedicalResearch/HelloMedicalResearch.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HelloMedicalResearch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boruili.HelloMedicalResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloMedicalResearch/HelloMedicalResearch-Bridging-Header.h";
 			};
 			name = Release;
 		};

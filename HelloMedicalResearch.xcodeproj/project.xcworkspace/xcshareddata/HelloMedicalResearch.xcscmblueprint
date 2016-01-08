@@ -4,18 +4,27 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : 0,
-    "4E5317E97C9BA3D19ECF6E61B87ED7C4E40E8F2A" : 0
+    "4E5317E97C9BA3D19ECF6E61B87ED7C4E40E8F2A" : 0,
+    "2AB82FAEF182B606BE5DBA6728A3A6DFA63EED7D" : 0,
+    "CEE2E2DA3B415DB70C257504A5BA6B611A730B63" : 0,
+    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F5E34A0D-E316-4C1F-8B57-3917F4B1EEC0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : "ResearchKit\/",
-    "4E5317E97C9BA3D19ECF6E61B87ED7C4E40E8F2A" : "HelloMedicalResearch\/"
+    "4E5317E97C9BA3D19ECF6E61B87ED7C4E40E8F2A" : "HelloMedicalResearch\/",
+    "2AB82FAEF182B606BE5DBA6728A3A6DFA63EED7D" : "AppCore\/",
+    "CEE2E2DA3B415DB70C257504A5BA6B611A730B63" : "Bridge-iOS-SDK\/",
+    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : "ResearchKit\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloMedicalResearch",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloMedicalResearch.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/boruil\/AppCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2AB82FAEF182B606BE5DBA6728A3A6DFA63EED7D"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/boruil\/AR-Power.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
@@ -25,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ResearchKit\/ResearchKit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CF6181E3789E3853840089C16D4B9FDDB9B31E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/boruil\/Bridge-iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEE2E2DA3B415DB70C257504A5BA6B611A730B63"
     }
   ]
 }
