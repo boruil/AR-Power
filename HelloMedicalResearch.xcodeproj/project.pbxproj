@@ -29,8 +29,6 @@
 		1822F7DE1C3FF4FC00758889 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7DD1C3FF4FC00758889 /* StoreKit.framework */; };
 		1822F7E01C3FF50500758889 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822F7DF1C3FF50500758889 /* libz.tbd */; };
 		1822F81D1C40043300758889 /* APHDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1822F81C1C40043200758889 /* APHDashboard.storyboard */; };
-		1822F8231C4005FF00758889 /* APHDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822F8201C4005FF00758889 /* APHDashboardViewController.m */; };
-		1822F8241C4005FF00758889 /* APHDashboardEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822F8221C4005FF00758889 /* APHDashboardEditViewController.m */; };
 		182A77B01C16A7200051C17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77AF1C16A7200051C17D /* AppDelegate.swift */; };
 		182A77B21C16A7200051C17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A77B11C16A7200051C17D /* ViewController.swift */; };
 		182A77B51C16A7200051C17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A77B31C16A7200051C17D /* Main.storyboard */; };
@@ -45,6 +43,7 @@
 		187B77CE1C1703CC0018DB9B /* SurveyTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */; };
 		187B77D01C1707C10018DB9B /* SurveyTextTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */; };
 		187B77D21C17081D0018DB9B /* SurveyImageTask1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */; };
+		18FA7CD21C400FAF00136C47 /* MicrophoneTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA7CD11C400FAF00136C47 /* MicrophoneTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,10 +126,6 @@
 		1822F8101C40006300758889 /* HelloMedicalResearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HelloMedicalResearch.entitlements; sourceTree = "<group>"; };
 		1822F81C1C40043200758889 /* APHDashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APHDashboard.storyboard; sourceTree = "<group>"; };
 		1822F81E1C4005FF00758889 /* HelloMedicalResearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMedicalResearch-Bridging-Header.h"; sourceTree = "<group>"; };
-		1822F81F1C4005FF00758889 /* APHDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHDashboardViewController.h; sourceTree = "<group>"; };
-		1822F8201C4005FF00758889 /* APHDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardViewController.m; sourceTree = "<group>"; };
-		1822F8211C4005FF00758889 /* APHDashboardEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHDashboardEditViewController.h; sourceTree = "<group>"; };
-		1822F8221C4005FF00758889 /* APHDashboardEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHDashboardEditViewController.m; sourceTree = "<group>"; };
 		182A77AF1C16A7200051C17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182A77B11C16A7200051C17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182A77B41C16A7200051C17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -147,6 +142,7 @@
 		187B77CD1C1703CC0018DB9B /* SurveyTaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTaskController.swift; sourceTree = "<group>"; };
 		187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTextTask1.swift; sourceTree = "<group>"; };
 		187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyImageTask1.swift; sourceTree = "<group>"; };
+		18FA7CD11C400FAF00136C47 /* MicrophoneTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,10 +249,6 @@
 				182A77AF1C16A7200051C17D /* AppDelegate.swift */,
 				182A77B11C16A7200051C17D /* ViewController.swift */,
 				182A77B31C16A7200051C17D /* Main.storyboard */,
-				1822F81F1C4005FF00758889 /* APHDashboardViewController.h */,
-				1822F8201C4005FF00758889 /* APHDashboardViewController.m */,
-				1822F8211C4005FF00758889 /* APHDashboardEditViewController.h */,
-				1822F8221C4005FF00758889 /* APHDashboardEditViewController.m */,
 				182A77B91C16A7200051C17D /* Assets.xcassets */,
 				182A77BE1C16A7200051C17D /* Info.plist */,
 				182A77B61C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld */,
@@ -266,6 +258,7 @@
 				187B77CF1C1707C10018DB9B /* SurveyTextTask1.swift */,
 				187B77D11C17081D0018DB9B /* SurveyImageTask1.swift */,
 				1822F81E1C4005FF00758889 /* HelloMedicalResearch-Bridging-Header.h */,
+				18FA7CD11C400FAF00136C47 /* MicrophoneTask.swift */,
 			);
 			path = HelloMedicalResearch;
 			sourceTree = "<group>";
@@ -465,14 +458,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1822F8241C4005FF00758889 /* APHDashboardEditViewController.m in Sources */,
 				182A77B81C16A7200051C17D /* HelloMedicalResearch.xcdatamodeld in Sources */,
 				182A78061C16BC1A0051C17D /* ConsentDocument.swift in Sources */,
+				18FA7CD21C400FAF00136C47 /* MicrophoneTask.swift in Sources */,
 				187B77D01C1707C10018DB9B /* SurveyTextTask1.swift in Sources */,
 				182A78081C16C0350051C17D /* ConsentTask.swift in Sources */,
 				187B77D21C17081D0018DB9B /* SurveyImageTask1.swift in Sources */,
 				182A77B21C16A7200051C17D /* ViewController.swift in Sources */,
-				1822F8231C4005FF00758889 /* APHDashboardViewController.m in Sources */,
 				182A77B01C16A7200051C17D /* AppDelegate.swift in Sources */,
 				187B77CE1C1703CC0018DB9B /* SurveyTaskController.swift in Sources */,
 			);

@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="User" image="arrowLeft" selectedImage="pizza bar icon" id="d0A-Ev-fqa"/>
+                    <tabBarItem key="tabBarItem" title="User" image="gradient bar" id="d0A-Ev-fqa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKG-gg-BYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,8 +78,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="sYP-NV-5vg" kind="relationship" relationship="viewControllers" id="qEe-Hg-dfg"/>
-                        <segue destination="HnY-cF-CYl" kind="relationship" relationship="viewControllers" id="3gj-N9-EbN"/>
                         <segue destination="Bxd-CQ-xV8" kind="relationship" relationship="viewControllers" id="cxW-Fs-SSj"/>
+                        <segue destination="HnY-cF-CYl" kind="relationship" relationship="viewControllers" id="3gj-N9-EbN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Th-7d-PUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -103,14 +103,35 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Find the word"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="107" y="249" width="186" height="37"/>
+                                    <rect key="frame" x="20" y="102" width="186" height="37"/>
                                 </variation>
                                 <connections>
                                     <action selector="surveyTextTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="UJ1-0r-HLh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMg-Su-pX6">
+                                <rect key="frame" x="20" y="99" width="186" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Find the voice"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="166" width="186" height="48"/>
+                                </variation>
+                                <connections>
+                                    <action selector="microphoneTapped:" destination="sYP-NV-5vg" eventType="touchUpInside" id="QPE-sv-YJr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="RMg-Su-pX6"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="RMg-Su-pX6"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Task" image="pizza bar icon" id="sAo-9d-Z3E"/>
                 </viewController>
@@ -208,7 +229,7 @@
         <!--Dashboard-->
         <scene sceneID="O6O-gy-094">
             <objects>
-                <tableViewController id="Bxd-CQ-xV8" customClass="APHDashboardViewController" sceneMemberID="viewController">
+                <tableViewController id="Bxd-CQ-xV8" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="40" sectionFooterHeight="22" id="ntA-yr-c6t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -234,16 +255,6 @@
                                                 <constraint firstAttribute="height" constant="1" id="cB5-xk-Z7D"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Completion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYz-eK-XSX">
-                                            <rect key="frame" x="16" y="8" width="182" height="26"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="182" id="0Pj-7o-uNB"/>
-                                                <constraint firstAttribute="height" constant="26" id="gqb-yF-VtB"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                            <color key="textColor" red="0.01176470588" green="0.62352941179999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, February 17" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MaA-WU-hKA">
                                             <rect key="frame" x="16" y="38" width="303" height="21"/>
                                             <constraints>
@@ -252,6 +263,9 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="0.46274509800000002" green="0.46274509800000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                <rect key="frame" x="16" y="42" width="303" height="21"/>
+                                            </variation>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0r2-67-HHC">
                                             <rect key="frame" x="198" y="8" width="44" height="27"/>
@@ -267,7 +281,7 @@
                                                 <action selector="infoTapped:" destination="H4h-66-eKd" eventType="touchUpInside" id="1qy-vq-qIJ"/>
                                             </connections>
                                         </button>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IgH-Hl-QxP" customClass="APCCircularProgressView">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IgH-Hl-QxP" customClass="ORKDiscreteGraphChartView">
                                             <rect key="frame" x="140" y="74" width="97" height="97"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
@@ -304,6 +318,16 @@
                                                 <constraint firstAttribute="height" constant="1" id="phv-zF-Zkd"/>
                                             </constraints>
                                         </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Completion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYz-eK-XSX">
+                                            <rect key="frame" x="16" y="8" width="182" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="182" id="0Pj-7o-uNB"/>
+                                                <constraint firstAttribute="height" constant="26" id="gqb-yF-VtB"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <color key="textColor" red="0.01176470588" green="0.62352941179999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="bottomMargin" secondItem="IgH-Hl-QxP" secondAttribute="bottom" constant="19" id="1jV-9z-7gl"/>
@@ -353,7 +377,7 @@
                                             <rect key="frame" x="4" y="63" width="371" height="154"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ey5-Pf-cLo" customClass="APCDiscreteGraphView">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ey5-Pf-cLo" customClass="ORKDiscreteGraphChartView">
                                             <rect key="frame" x="4" y="63" width="371" height="154"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
@@ -487,10 +511,10 @@
                                     </constraints>
                                     <variation key="default">
                                         <mask key="constraints">
-                                            <exclude reference="hGm-PF-EJP"/>
                                             <exclude reference="OsL-qH-9uO"/>
-                                            <exclude reference="gsD-pm-m2R"/>
+                                            <exclude reference="hGm-PF-EJP"/>
                                             <exclude reference="XX4-VX-vOZ"/>
+                                            <exclude reference="gsD-pm-m2R"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
@@ -544,11 +568,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="COL-A8-0kU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2340" y="1147.5"/>
+            <point key="canvasLocation" x="2325" y="1143.75"/>
         </scene>
     </scenes>
     <resources>
-        <image name="arrowLeft" width="10" height="18"/>
         <image name="expand_icon" width="27" height="27"/>
         <image name="gradient bar" width="30" height="30"/>
         <image name="info_icon" width="27" height="27"/>
